@@ -1,31 +1,36 @@
 {
-  "id": "62e03090-b413-4d65-8ac8-fc9e1313e973",
+  "id": "f90570dd-8b1f-49e0-a3e5-a515d72f1479",
   "name": "ID Range Checker",
   "publisher": "ANJ",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "ID Range Checker",
+  "description":  "App ID Range Checker",
+  "privacyStatement": "https://github.com/NovoaDev",
+  "EULA": "https://github.com/NovoaDev",
+  "help": "https://github.com/NovoaDev",
+  "url": "https://github.com/NovoaDev",
+  "logo": "res/logo.png",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "26.0.0.0",
   "idRanges": [
     {
       "from": 99997,
       "to": 99999
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": true
+  },
+  "runtime": "15.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile",
+    "NoPromotedActionProperties"
+  ],
+  "contextSensitiveHelpUrl": "https://github.com/NovoaDev"
 }
