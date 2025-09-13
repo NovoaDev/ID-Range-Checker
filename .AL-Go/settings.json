@@ -30,5 +30,6 @@
   "ALDoc": {
     "continuousDeployment": false
   },
-  "skipUpgrade": true
+  "skipUpgrade": true,
+  "repoVersion": "1.1"
 }
