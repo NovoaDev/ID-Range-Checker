@@ -1,7 +1,34 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v7.3/.Modules/settings.schema.json",
-  "country": "us",
+  "country": "es",
+  "environments": [
+    "TESTING",
+    "PRODUCTION (Production)"
+  ],
+  "DeployToTESTING": {
+    "EnvironmentName": "TESTING",
+    "Projects": "*",
+    "SyncMode": "ForceSync"
+  },
+  "DeployToPRODUCTION": {
+    "EnvironmentName": "PRODUCTION",
+    "Projects": "*",
+    "ContinuousDeployment": false
+  },
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "doNotRunBCPTTests": true,
+  "doNotRunTests": true,
+  "doNotSignApps": true,
+  "enableCodeCop": true,
+  "enableUICop": true,
+  "enablePerTenantExtensionCop": true,
+  "AppSourceCopMandatoryAffixes": [
+    "_ANJ"
+  ],
+  "ALDoc": {
+    "continuousDeployment": false
+  },
+  "skipUpgrade": true
 }
